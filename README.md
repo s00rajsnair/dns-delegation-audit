@@ -339,6 +339,20 @@ Where:
 - `input.txt` contains one fully qualified domain name per line
 - `output.csv` will be created or overwritten
 
+## Example Execution
+
+The tool prints periodic progress updates during execution and a final summary
+showing delegation states and prioritization counts.
+
+![CLI execution showing progress and summary](docs/cli-run.png)
+
+## Example Output
+
+The CSV output is designed for manual review, filtering, and triage by
+infrastructure and platform teams.
+
+![Sample CSV output with delegation state classification](docs/csv-output.png)
+
 ### Command-Line Options
 
 ` -i, --input `  
